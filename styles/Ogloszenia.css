@@ -18,9 +18,9 @@
 
 .Rickroll {
   position: absolute;
-  top: 374px;
-  left: 594px;
+  left: 32%;
   z-index: -10;
+  top: 374px;
 }
 
 .BUDOWAAAAAAAAAAAAAAAAAA {
@@ -218,3 +218,124 @@
   .NavBar li {
     float: left;
   }
+
+  @media screen and (max-width: 900px)
+{
+  .Wyswietlenia {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  left: 30%;
+  top: 214px;
+  transition: font-size 0.5s, top 0.5s, left 0.5s, background-color 0.5s, color 0.5s;
+  text-decoration: none;
+  }
+
+  .Wyswietlenia:hover {
+    font-size: 19px;
+    top: 11px;
+    left: 824px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  .NavBar ul {
+    list-style-type: none;
+    font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 274px;
+  left: 0px;
+  border-radius: 25px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  }
+
+  .NavBar a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+  transition: background-color 0.5s;
+  list-style-type: none;
+    font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: inline-block;
+  }
+
+  .NavBar a:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+
+  .NavBar li {
+    float: left;
+  }
+
+  .BUDOWAAAAAAAAAAAAAAAAAA {
+    font-family: Arial;
+      font-weight: bold;
+      text-align: center;
+      font-size: 50px;
+      background-color: white;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    left: 0%;
+    top: 494px;
+    transition: font-size 0.5s, top 0.5s, left 0.5s, background-color 0.5s, color 0.5s;
+    text-decoration: none;
+  }
+  
+  .BUDOWAAAAAAAAAAAAAAAAAA:hover {
+    font-size: 114px;
+      top: 200px;
+      left: 324px;
+      background-color: black;
+      color: white;
+      cursor: default;
+  }
+
+  .Rickroll {
+    position: absolute;
+    left: 2%;
+    z-index: -10;
+    top: 644px;
+    width: 394px;
+  }
+
+}
